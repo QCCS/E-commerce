@@ -1,10 +1,10 @@
 # commerce website
-
+# node 7.9.0
+数据库mongodb
 
 - 数据库Schema设计
 
 [数据库设计](https://github.com/lastIndexOf/E-commerce/tree/master/docs/sql)
-
 
 - api
 
@@ -26,7 +26,7 @@
 
 ### 说明
 
-- npm install / yarn install
+- npm install 或者 yarn install
 
 - 修改根目录下test.js中的管理员信息为你自己的信息
 
@@ -35,6 +35,7 @@
 - node server `开启服务器`
 
 - 打开网站, 先进入后台 `localhost:4555/admin`
+- 打开网站, 先进入后台 `localhost:const serverPort = 4000/admin`
 
 - 进入视频管理页面添加7个分类 `确保首页数据显示`
 

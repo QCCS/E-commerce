@@ -6,7 +6,7 @@ mongoose.connect('mongodb://localhost:27017/commerce', err => {
   if (err)
     console.error(er)
   else
-   console.log('connection sussecc!')
+   console.log('connection success!')
 })
 
 //Vedio.find({})
